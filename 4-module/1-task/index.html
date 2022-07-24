@@ -6,6 +6,9 @@
 
   <script src="index.js"></script>
   <body>
+    <ul class = "friendlist">
+
+    </ul>
     <script>
       let friends = [
         {
@@ -22,7 +25,18 @@
         }
       ];
 
+      let friendlist = document.querySelector('.friendlist')
+
       document.body.appendChild(makeFriendsList(friends));
+
+      function makeFriendList(arr){
+      for (let friend of arr) {
+      friendlist.insertAdjacentHTML('beforeEnd', `<li>${friend.firstName} + ${friend.lastName}</li>`);
+      }
+      }
+
+makeFriendList(friends)
+  
     </script>
   </body>
 </html>
