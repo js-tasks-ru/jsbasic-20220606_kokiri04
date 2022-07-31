@@ -43,7 +43,7 @@ function initCarousel() {
 
   checkbtm2();
 
-  console.log(position)
+
 
   });
 
@@ -60,25 +60,11 @@ function initCarousel() {
 
   checkbtm2();
 
-  console.log(position)
 
-  //console.log(elemslide)
 
  });
 
- /* let checkbtm = () => {
-  if (position === Math.min(position, 0)) {
-    btnl.style.display = 'none'
-  } else (position < 0); {
-    btnl.style.display = ''
-  }
-  
-  if (position <= Math.max(position, -elemWidth * (elemslide.length -1))) {
-    btnr.style.display = ''
-  } else {
-    btnr.style.display = 'none'
-  }
-  } */
+
 
  
 }
