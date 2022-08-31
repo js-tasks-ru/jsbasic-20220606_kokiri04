@@ -5,7 +5,7 @@ function toggleText() {
   
   btm.dataset.toggleId = 'hide'
   
-  document.addEventListener('click', function(event) {
+  btm.addEventListener('click', function(event) {
   
   let btn = event.target.className = 'toggle-text-button';
   
